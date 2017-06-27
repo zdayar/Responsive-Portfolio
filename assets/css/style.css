@@ -265,7 +265,7 @@ input[type=submit] {
 
     /* portfolio page items */
     .work {
-        width: 380px;
+        max-width: 380px;
     }
 
     .work:nth-child(even) {
@@ -307,7 +307,7 @@ input[type=submit] {
 
     /* portfolio page items */
     .work {
-        width: 300px;
+        max-width: 300px;
     }
 
     .work:nth-child(even) {
@@ -315,7 +315,7 @@ input[type=submit] {
     }
 
     /* adjust font sizes */
-    body {
+   /* body {
         font-size: 16px;
         line-height: 26px;
     }
@@ -344,7 +344,7 @@ input[type=submit] {
 
     input[type=submit] {
         font-size: 16px;
-    }
+    }*/
 
 }
 
@@ -357,15 +357,44 @@ input[type=submit] {
 
     /* common items */
     .container {
-        max-width: 90%;
-    }
-
-    #main-container {
-        padding-top: 5px;
+        max-width: 100%;
     }
 
     #masthead {
         position: static;
+        margin: 0 0 15px;
+        overflow: visible;
+    }
+
+    #logo {
+        clear: both;
+        width: 100%;
+        display: block;
+    }
+
+    nav {
+        clear: both;
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    nav a {
+
+    }
+
+    #main-container {
+        padding-top: 5px;
+        max-width: 90%
+    }
+
+    .main-section {
+        margin: 0 0 20px;
+    }
+
+    footer {
+        overflow: visible;
     }
 
     /* about page items */
@@ -384,7 +413,7 @@ input[type=submit] {
     }
 
     /* adjust font sizes */
-    body {
+   /* body {
         font-size: 14px;
         line-height: 22px;
     }
@@ -413,7 +442,7 @@ input[type=submit] {
 
     input[type=submit] {
         font-size: 14px;
-    }
+    }*/
 
 }
 
