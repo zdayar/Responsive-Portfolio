@@ -281,7 +281,6 @@ input[type=submit] {
 
     /* common items */
     .container {
-        min-width: 620px;
         max-width: 90%;
     }
 
@@ -313,38 +312,6 @@ input[type=submit] {
     .work:nth-child(even) {
         margin-right: 20px;
     }
-
-    /* adjust font sizes */
-   /* body {
-        font-size: 16px;
-        line-height: 26px;
-    }
-
-    h1 {
-        font-size: 24px;
-        line-height: 36px;
-    }
-
-    h2,
-    h3 {
-        font-size: 20px;
-    }
-
-    #logo {
-        font-size: 24px;
-    }
-
-    footer {
-        font-size: 12px;
-    }
-
-    textarea {
-        font-size: 12px;
-    }
-
-    input[type=submit] {
-        font-size: 16px;
-    }*/
 
 }
 
@@ -394,6 +361,8 @@ input[type=submit] {
     }
 
     footer {
+        width: 100%;
+        display: block;
         overflow: visible;
     }
 
@@ -411,38 +380,6 @@ input[type=submit] {
     .work:nth-child(even) {
         margin-right: 0;
     }
-
-    /* adjust font sizes */
-   /* body {
-        font-size: 14px;
-        line-height: 22px;
-    }
-
-    h1 {
-        font-size: 22px;
-        line-height: 34px;
-    }
-
-    h2,
-    h3 {
-        font-size: 18px;
-    }
-
-    #logo {
-        font-size: 22px;
-    }
-
-    footer {
-        font-size: 10px;
-    }
-
-    textarea {
-        font-size: 10px;
-    }
-
-    input[type=submit] {
-        font-size: 14px;
-    }*/
 
 }
 
